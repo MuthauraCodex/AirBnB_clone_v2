@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-"""
-Script that  starts Flask app
-Listens on 0.0.0.0 port 5000
-"""
+"""Script that  starts Flask app Listens on 0.0.0.0 port 5000 """
 from flask import Flask, render_template
 from models import storage
 from models.state import State
